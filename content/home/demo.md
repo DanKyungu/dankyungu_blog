@@ -5,7 +5,7 @@
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
 title = "Academic Kickstart"
@@ -23,18 +23,18 @@ subtitle = ""
 
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
-  gradient_start = "DarkGreen"
-  gradient_end = "ForestGreen"
-  
+  gradient_start = "#0E1E24"
+  gradient_end = "#0E1E24"
+
   # Background image.
   # image = "image.jpg"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   # image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   # image_position = "center"  # Options include `left`, `center` (default), or `right`.
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
-  
+
   # Text color (true=light or false=dark).
   text_color_light = true
 
@@ -45,7 +45,7 @@ subtitle = ""
 [advanced]
  # Custom CSS. 
  css_style = ""
- 
+
  # CSS class.
  css_class = ""
 +++
@@ -59,17 +59,5 @@ For inspiration, check out [the Markdown files](https://sourcethemes.com/academi
 - [View the documentation](https://sourcethemes.com/academic/docs/)
 - [Ask a question](http://discuss.gohugo.io/)
 - [Request a feature or report a bug](https://github.com/gcushen/hugo-academic/issues)
-- Updating? View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-- Support development of Academic:
-  - [Donate a coffee](https://paypal.me/cushen)
-  - [Become a backer on Patreon](https://www.patreon.com/cushen)
-  - [Decorate your laptop or journal with an Academic sticker](https://www.redbubble.com/people/neutreno/works/34387919-academic)
-  - [Wear the T-shirt](https://academic.threadless.com/)
 
-{{% alert note %}}
-This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
-
-Backgrounds can be applied to any section. Here, the *background* option is set give a *color gradient*.
-
-**To remove this section, delete `content/home/demo.md`.**
-{{% /alert %}}
+  
